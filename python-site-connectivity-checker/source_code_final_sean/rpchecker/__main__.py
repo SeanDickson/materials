@@ -15,6 +15,7 @@ def main():
     if not urls:
         print("Error: no URLs to check", file=sys.stderr)
         sys.exit(1)
+        
 
     if user_args.asynchronous:
         asyncio.run(_asynchronous_check(urls))
