@@ -31,6 +31,12 @@ def read_user_cli_args():
         action="store_true",
         help="run the connectivity check asynchronously",
     )
+    #parser.add_argument(
+    #    "-c",
+    #    "--csv",
+    #   action="store_true",
+    #   help="URLS in CSV file, indicate column for URL and column for results",
+    #)
     return parser.parse_args()
 
 
